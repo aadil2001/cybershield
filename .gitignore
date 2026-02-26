@@ -1,0 +1,19 @@
+# Large dataset files - DO NOT upload to GitHub
+data/*.csv
+!data/sample_wednesday.csv
+
+# Environment file with API keys - DO NOT upload
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folder
+venv/
+env/
+
+# Windows junk
+Thumbs.db
+desktop.ini
